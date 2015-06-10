@@ -5,7 +5,7 @@
 
 import UIKit
 
-class CircleShadowImageView: UIView {
+public class CircleShadowImageView: UIView {
 
     var innerImageView: UIImageView!
     var shadowView: UIView!
@@ -64,7 +64,7 @@ class CircleShadowImageView: UIView {
         }
     }
 
-    var highlighted: Bool {
+    public var highlighted: Bool {
         get {
             return innerImageView != nil ? innerImageView.highlighted : false
         }
@@ -85,12 +85,12 @@ class CircleShadowImageView: UIView {
         setupView()
     }
 
-    required init(coder: NSCoder) {
+    required public init(coder: NSCoder) {
         super.init(coder: coder)
         setupView()
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         innerImageView.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame))
         shadowView.frame = innerImageView.frame
         //if the view is loaded from nib, self.frame would not be set correctly in setupView

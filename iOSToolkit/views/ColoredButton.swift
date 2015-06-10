@@ -5,7 +5,7 @@
 
 import UIKit
 
-class ColoredButton: UIButton {
+public class ColoredButton: UIButton {
 
     var buttonColor: UIColor?
     var highlightedColor: UIColor?
@@ -20,7 +20,7 @@ class ColoredButton: UIButton {
         }
     }
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         if self.backgroundColor == nil {
             buttonColor = UIColor.whiteColor()
         } else {
@@ -32,7 +32,7 @@ class ColoredButton: UIButton {
         self.layer.masksToBounds = true
     }
     
-    override var highlighted: Bool {
+    public override var highlighted: Bool {
         didSet {
             if highlighted {
                 self.backgroundColor = highlightedColor
@@ -42,7 +42,7 @@ class ColoredButton: UIButton {
         }
     }
     
-    override var enabled: Bool {
+    public override var enabled: Bool {
         didSet {
             if enabled {
                 self.backgroundColor = buttonColor

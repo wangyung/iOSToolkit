@@ -5,7 +5,7 @@
 
 import UIKit
 
-extension UIColor {        
+public extension UIColor {
     /**
      * ARGB hex value to UIColor
      *

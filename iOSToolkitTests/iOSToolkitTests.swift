@@ -21,9 +21,9 @@ class iOSToolkitTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testUrlEncodedString() {
+        let str1 = "MTIzNA==".urlEncodedString
+        XCTAssertTrue("MTIzNA%3D%3D" == str1)
     }
     
     func testPerformanceExample() {

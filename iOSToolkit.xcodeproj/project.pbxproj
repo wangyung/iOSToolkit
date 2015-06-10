@@ -20,6 +20,8 @@
 		974A7AE01B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADD1B23F5AF008E1C69 /* CircleShadowImageView.swift */; };
 		974A7AE11B23F5AF008E1C69 /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */; };
 		974A7AE21B23F5AF008E1C69 /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */; };
+		97BDF02C1B28A7FD001E4719 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+url.swift */; };
+		97BDF02D1B28A7FD001E4719 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+url.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		974A7ADA1B23F541008E1C69 /* LogUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogUtils.swift; path = utils/LogUtils.swift; sourceTree = "<group>"; };
 		974A7ADD1B23F5AF008E1C69 /* CircleShadowImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleShadowImageView.swift; path = views/CircleShadowImageView.swift; sourceTree = "<group>"; };
 		974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColoredButton.swift; path = views/ColoredButton.swift; sourceTree = "<group>"; };
+		97BDF02B1B28A7FD001E4719 /* String+url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+url.swift"; path = "../../../../../../../Freddie/Programming/Workspace/MyProjects/ios/iOSToolkit/iOSToolkit/extensions/String+url.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 			children = (
 				974A7AD11B23F3D8008E1C69 /* UIColor+hex.swift */,
 				974A7AD21B23F3D8008E1C69 /* UIColor+highlighted.swift */,
+				97BDF02B1B28A7FD001E4719 /* String+url.swift */,
 			);
 			name = extensions;
 			sourceTree = "<group>";
@@ -257,6 +261,7 @@
 				974A7ADF1B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */,
 				974A7ADB1B23F541008E1C69 /* LogUtils.swift in Sources */,
 				974A7AD31B23F3D8008E1C69 /* UIColor+hex.swift in Sources */,
+				97BDF02C1B28A7FD001E4719 /* String+url.swift in Sources */,
 				974A7AD51B23F3D8008E1C69 /* UIColor+highlighted.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +276,7 @@
 				974A7AD61B23F3D8008E1C69 /* UIColor+highlighted.swift in Sources */,
 				974A7AD41B23F3D8008E1C69 /* UIColor+hex.swift in Sources */,
 				974A7AE01B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */,
+				97BDF02D1B28A7FD001E4719 /* String+url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

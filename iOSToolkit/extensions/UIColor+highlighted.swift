@@ -5,7 +5,7 @@
 
 import UIKit
 
-extension UIColor {        
+public extension UIColor {
     
     class func highlightedColor(color: UIColor) -> UIColor {
         var a : CGFloat = 0
