@@ -10,18 +10,20 @@
 		974A7AB21B23F182008E1C69 /* iOSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 974A7AB11B23F182008E1C69 /* iOSToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		974A7AB81B23F182008E1C69 /* iOSToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974A7AAC1B23F182008E1C69 /* iOSToolkit.framework */; };
 		974A7ABF1B23F182008E1C69 /* iOSToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ABE1B23F182008E1C69 /* iOSToolkitTests.swift */; };
-		974A7AD31B23F3D8008E1C69 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD11B23F3D8008E1C69 /* UIColor+hex.swift */; };
-		974A7AD41B23F3D8008E1C69 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD11B23F3D8008E1C69 /* UIColor+hex.swift */; };
-		974A7AD51B23F3D8008E1C69 /* UIColor+highlighted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD21B23F3D8008E1C69 /* UIColor+highlighted.swift */; };
-		974A7AD61B23F3D8008E1C69 /* UIColor+highlighted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD21B23F3D8008E1C69 /* UIColor+highlighted.swift */; };
+		974A7AD31B23F3D8008E1C69 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD11B23F3D8008E1C69 /* UIColor+Hex.swift */; };
+		974A7AD41B23F3D8008E1C69 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD11B23F3D8008E1C69 /* UIColor+Hex.swift */; };
+		974A7AD51B23F3D8008E1C69 /* UIColor+Highlighted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD21B23F3D8008E1C69 /* UIColor+Highlighted.swift */; };
+		974A7AD61B23F3D8008E1C69 /* UIColor+Highlighted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7AD21B23F3D8008E1C69 /* UIColor+Highlighted.swift */; };
 		974A7ADB1B23F541008E1C69 /* LogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADA1B23F541008E1C69 /* LogUtils.swift */; };
 		974A7ADC1B23F541008E1C69 /* LogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADA1B23F541008E1C69 /* LogUtils.swift */; };
 		974A7ADF1B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADD1B23F5AF008E1C69 /* CircleShadowImageView.swift */; };
 		974A7AE01B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADD1B23F5AF008E1C69 /* CircleShadowImageView.swift */; };
 		974A7AE11B23F5AF008E1C69 /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */; };
 		974A7AE21B23F5AF008E1C69 /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */; };
-		97BDF02C1B28A7FD001E4719 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+url.swift */; };
-		97BDF02D1B28A7FD001E4719 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+url.swift */; };
+		97BDF02C1B28A7FD001E4719 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+URL.swift */; };
+		97BDF02D1B28A7FD001E4719 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+URL.swift */; };
+		97BDF0481B2B2EA9001E4719 /* NSData+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */; };
+		97BDF0491B2B2EA9001E4719 /* NSData+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +43,13 @@
 		974A7AB71B23F182008E1C69 /* iOSToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		974A7ABD1B23F182008E1C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		974A7ABE1B23F182008E1C69 /* iOSToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSToolkitTests.swift; sourceTree = "<group>"; };
-		974A7AD11B23F3D8008E1C69 /* UIColor+hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+hex.swift"; path = "extensions/UIColor+hex.swift"; sourceTree = "<group>"; };
-		974A7AD21B23F3D8008E1C69 /* UIColor+highlighted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+highlighted.swift"; path = "extensions/UIColor+highlighted.swift"; sourceTree = "<group>"; };
+		974A7AD11B23F3D8008E1C69 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "extensions/UIColor+Hex.swift"; sourceTree = "<group>"; };
+		974A7AD21B23F3D8008E1C69 /* UIColor+Highlighted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Highlighted.swift"; path = "extensions/UIColor+Highlighted.swift"; sourceTree = "<group>"; };
 		974A7ADA1B23F541008E1C69 /* LogUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogUtils.swift; path = utils/LogUtils.swift; sourceTree = "<group>"; };
 		974A7ADD1B23F5AF008E1C69 /* CircleShadowImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleShadowImageView.swift; path = views/CircleShadowImageView.swift; sourceTree = "<group>"; };
 		974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColoredButton.swift; path = views/ColoredButton.swift; sourceTree = "<group>"; };
-		97BDF02B1B28A7FD001E4719 /* String+url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+url.swift"; path = "../../../../../../../Freddie/Programming/Workspace/MyProjects/ios/iOSToolkit/iOSToolkit/extensions/String+url.swift"; sourceTree = "<group>"; };
+		97BDF02B1B28A7FD001E4719 /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+URL.swift"; path = "../../../../../../../Freddie/Programming/Workspace/MyProjects/ios/iOSToolkit/iOSToolkit/extensions/String+URL.swift"; sourceTree = "<group>"; };
+		97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+Hex.swift"; path = "../../../../../../../Freddie/Programming/Workspace/MyProjects/ios/iOSToolkit/iOSToolkit/extensions/NSData+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +129,10 @@
 		974A7AD71B23F3EB008E1C69 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				974A7AD11B23F3D8008E1C69 /* UIColor+hex.swift */,
-				974A7AD21B23F3D8008E1C69 /* UIColor+highlighted.swift */,
-				97BDF02B1B28A7FD001E4719 /* String+url.swift */,
+				974A7AD11B23F3D8008E1C69 /* UIColor+Hex.swift */,
+				974A7AD21B23F3D8008E1C69 /* UIColor+Highlighted.swift */,
+				97BDF02B1B28A7FD001E4719 /* String+URL.swift */,
+				97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */,
 			);
 			name = extensions;
 			sourceTree = "<group>";
@@ -259,10 +263,11 @@
 			files = (
 				974A7AE11B23F5AF008E1C69 /* ColoredButton.swift in Sources */,
 				974A7ADF1B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */,
+				97BDF0481B2B2EA9001E4719 /* NSData+Hex.swift in Sources */,
 				974A7ADB1B23F541008E1C69 /* LogUtils.swift in Sources */,
-				974A7AD31B23F3D8008E1C69 /* UIColor+hex.swift in Sources */,
-				97BDF02C1B28A7FD001E4719 /* String+url.swift in Sources */,
-				974A7AD51B23F3D8008E1C69 /* UIColor+highlighted.swift in Sources */,
+				974A7AD31B23F3D8008E1C69 /* UIColor+Hex.swift in Sources */,
+				97BDF02C1B28A7FD001E4719 /* String+URL.swift in Sources */,
+				974A7AD51B23F3D8008E1C69 /* UIColor+Highlighted.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +278,11 @@
 				974A7AE21B23F5AF008E1C69 /* ColoredButton.swift in Sources */,
 				974A7ADC1B23F541008E1C69 /* LogUtils.swift in Sources */,
 				974A7ABF1B23F182008E1C69 /* iOSToolkitTests.swift in Sources */,
-				974A7AD61B23F3D8008E1C69 /* UIColor+highlighted.swift in Sources */,
-				974A7AD41B23F3D8008E1C69 /* UIColor+hex.swift in Sources */,
+				974A7AD61B23F3D8008E1C69 /* UIColor+Highlighted.swift in Sources */,
+				974A7AD41B23F3D8008E1C69 /* UIColor+Hex.swift in Sources */,
 				974A7AE01B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */,
-				97BDF02D1B28A7FD001E4719 /* String+url.swift in Sources */,
+				97BDF0491B2B2EA9001E4719 /* NSData+Hex.swift in Sources */,
+				97BDF02D1B28A7FD001E4719 /* String+URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
