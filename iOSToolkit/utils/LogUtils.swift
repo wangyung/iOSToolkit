@@ -30,28 +30,28 @@ public enum LogLevel: Int {
             case .Verbose:  return "V"
             }
         }
-	}
+    }
 }
 
 public var appLogLevel: LogLevel = LogLevel.Info
 
-public func logError(tag: String, logString: String) {
+public func logError(tag: String, logString: AnyObject) {
     log(.Error, tag, logString)
 }
 
-public func logWarning(tag: String, logString: String) {
+public func logWarning(tag: String, logString: AnyObject) {
     log(.Warning, tag, logString)
 }
 
-public func logInfo(tag: String, logString: String) {
+public func logInfo(tag: String, logString: AnyObject) {
     log(.Info, tag, logString)
 }
 
-public func logDebug(tag: String, logString: String) {
+public func logDebug(tag: String, logString: AnyObject) {
     log(.Debug, tag, logString)
 }
 
-public func logVerbose(tag: String, logString: String) {
+public func logVerbose(tag: String, logString: AnyObject) {
     log(.Verbose, tag, logString)
 }
 
@@ -64,8 +64,8 @@ public func address(ref: UnsafePointer<Void>) -> String {
     return NSString(format: "%p", unsafeBitCast(ref, Int.self)) as String
 }
 
-private func log(level: LogLevel, tag: String, logString: String) {
+private func log(level: LogLevel, tag: String, logString: AnyObject) {
     if (level.rawValue <= appLogLevel.rawValue) {
-        NSLog("%@/%@: %@", level.prefix, tag, logString)
+        println("\(level.prefix)/\(tag): \(logString)")
     }
 }
