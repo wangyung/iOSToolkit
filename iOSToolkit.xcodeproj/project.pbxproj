@@ -26,6 +26,8 @@
 		97BDF02D1B28A7FD001E4719 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF02B1B28A7FD001E4719 /* String+URL.swift */; };
 		97BDF0481B2B2EA9001E4719 /* NSData+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */; };
 		97BDF0491B2B2EA9001E4719 /* NSData+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */; };
+		97CDDE341B42BAB500FD06A4 /* UIDevice+SSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDDE331B42BAB500FD06A4 /* UIDevice+SSID.swift */; };
+		97CDDE351B42BAB500FD06A4 /* UIDevice+SSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDDE331B42BAB500FD06A4 /* UIDevice+SSID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		970C78131B2D2102008F34FA /* UITextFieldEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextFieldEx.swift; path = "views/UITextFieldEx.swift"; sourceTree = "<group>"; };
+		970C78131B2D2102008F34FA /* UITextFieldEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextFieldEx.swift; path = views/UITextFieldEx.swift; sourceTree = "<group>"; };
 		974A7AAC1B23F182008E1C69 /* iOSToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		974A7AB01B23F182008E1C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		974A7AB11B23F182008E1C69 /* iOSToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSToolkit.h; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		974A7ADE1B23F5AF008E1C69 /* ColoredButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColoredButton.swift; path = views/ColoredButton.swift; sourceTree = "<group>"; };
 		97BDF02B1B28A7FD001E4719 /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+URL.swift"; path = "extensions/String+URL.swift"; sourceTree = "<group>"; };
 		97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+Hex.swift"; path = "extensions/NSData+Hex.swift"; sourceTree = "<group>"; };
+		97CDDE331B42BAB500FD06A4 /* UIDevice+SSID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIDevice+SSID.swift"; path = "extensions/UIDevice+SSID.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,7 @@
 				974A7AD21B23F3D8008E1C69 /* UIColor+Highlighted.swift */,
 				97BDF02B1B28A7FD001E4719 /* String+URL.swift */,
 				97BDF0471B2B2EA9001E4719 /* NSData+Hex.swift */,
+				97CDDE331B42BAB500FD06A4 /* UIDevice+SSID.swift */,
 			);
 			name = extensions;
 			sourceTree = "<group>";
@@ -268,6 +272,7 @@
 				974A7AE11B23F5AF008E1C69 /* ColoredButton.swift in Sources */,
 				974A7ADF1B23F5AF008E1C69 /* CircleShadowImageView.swift in Sources */,
 				970C78141B2D2102008F34FA /* UITextFieldEx.swift in Sources */,
+				97CDDE341B42BAB500FD06A4 /* UIDevice+SSID.swift in Sources */,
 				97BDF0481B2B2EA9001E4719 /* NSData+Hex.swift in Sources */,
 				974A7ADB1B23F541008E1C69 /* LogUtils.swift in Sources */,
 				974A7AD31B23F3D8008E1C69 /* UIColor+Hex.swift in Sources */,
@@ -282,6 +287,7 @@
 			files = (
 				970C78151B2D2102008F34FA /* UITextFieldEx.swift in Sources */,
 				974A7AE21B23F5AF008E1C69 /* ColoredButton.swift in Sources */,
+				97CDDE351B42BAB500FD06A4 /* UIDevice+SSID.swift in Sources */,
 				974A7ADC1B23F541008E1C69 /* LogUtils.swift in Sources */,
 				974A7ABF1B23F182008E1C69 /* iOSToolkitTests.swift in Sources */,
 				974A7AD61B23F3D8008E1C69 /* UIColor+Highlighted.swift in Sources */,
