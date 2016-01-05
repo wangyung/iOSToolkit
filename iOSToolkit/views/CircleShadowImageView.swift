@@ -30,7 +30,7 @@ public class CircleShadowImageView: UIView {
 
     @IBInspectable var shadowColor: UIColor {
         get {
-            return UIColor(CGColor: self.shadowView.layer.shadowColor)!
+            return UIColor(CGColor: self.shadowView.layer.shadowColor ?? UIColor.clearColor().CGColor)
         }
         set {
             self.shadowView.layer.shadowColor = newValue.CGColor
@@ -85,7 +85,7 @@ public class CircleShadowImageView: UIView {
         setupView()
     }
 
-    required public init(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         setupView()
     }

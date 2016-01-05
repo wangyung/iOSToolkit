@@ -36,23 +36,23 @@ public enum LogLevel: Int {
 public var appLogLevel: LogLevel = LogLevel.Info
 
 public func logError(tag: String, logString: AnyObject) {
-    log(.Error, tag, logString)
+    log(.Error, tag: tag, logString: logString)
 }
 
 public func logWarning(tag: String, logString: AnyObject) {
-    log(.Warning, tag, logString)
+    log(.Warning, tag: tag, logString: logString)
 }
 
 public func logInfo(tag: String, logString: AnyObject) {
-    log(.Info, tag, logString)
+    log(.Info, tag: tag, logString: logString)
 }
 
 public func logDebug(tag: String, logString: AnyObject) {
-    log(.Debug, tag, logString)
+    log(.Debug, tag: tag, logString: logString)
 }
 
 public func logVerbose(tag: String, logString: AnyObject) {
-    log(.Verbose, tag, logString)
+    log(.Verbose, tag: tag, logString: logString)
 }
 
 
@@ -66,6 +66,6 @@ public func address(ref: UnsafePointer<Void>) -> String {
 
 private func log(level: LogLevel, tag: String, logString: AnyObject) {
     if (level.rawValue <= appLogLevel.rawValue) {
-        println("\(level.prefix)/\(tag): \(logString)")
+        print("\(level.prefix)/\(tag): \(logString)")
     }
 }
